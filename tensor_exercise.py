@@ -14,3 +14,14 @@ print(double_tensor(tensor3))
 
 bottom_right = tensor3[1][1:] + tensor3[2][1:]
 print(bottom_right)
+
+nums = [1,2,3,4,]
+chars = ['a','b','c','d']
+
+def form_tuples(nums, chars):
+	tuples = []
+	for i in range(len(nums)):
+		tuples.append((nums[i], chars[i]))
+	return tuples
+
+print(form_tuples(nums, chars))
